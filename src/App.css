@@ -1,0 +1,387 @@
+body {
+    background-color: #131519;
+}
+
+.owner-container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    width: 500px;
+}
+
+.owner-the-photo-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.owner-the-photo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.owner-name-container {
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 250px;
+}
+
+.owner-name-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 250px;
+}
+
+.owner-social-media-container {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 250px;
+}
+
+.linkedin{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+    left: 80px;
+}
+
+.github{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    width: 10%;
+    height: auto;
+    left: 111px;
+    cursor: pointer;
+}
+
+.telegram{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    width: 11%;
+    height: auto;
+    left: 140px;
+    cursor: pointer;
+}
+
+.timeline-container {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    width: 1000px;
+    /*border: 2px solid white;*/
+}
+
+.timeline{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    width: 1px;
+    height: 300px;
+    background: #494848;
+    border: 1px solid #494848;
+}
+
+.dot{
+    position: absolute;
+    top: 70px;
+    left: 93px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #494848;
+    border: 1px solid #494848;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.year{
+    position: absolute;
+    top: 78px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    color: #494848;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.university{
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    width: 12%;
+    cursor: pointer;
+}
+
+.university-explanation-container{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 700px;
+    height: 100px;
+    /*border: 1px solid #494848;*/
+}
+
+.university-explanation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 680px;
+}
+
+.university-explanation a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.university-explanation a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.dot-najottalim{
+    position: absolute;
+    top: 230px;
+    left: 93px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #494848;
+    border: 1px solid #494848;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.year-najottalim{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    color: #494848;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.najottalim{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    width: 12%;
+    cursor: pointer;
+}
+
+.nt-explanation-container{
+    position: absolute;
+    top: 210px;
+    right: 30px;
+    width: 700px;
+    height: 100px;
+    /*border: 1px solid #494848;*/
+}
+
+.nt-explanation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 680px;
+}
+
+.nt-explanation a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.nt-explanation a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.biography-container {
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #494848;*/
+    width: 1000px;
+    height: 200px;
+}
+
+.biography{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 950px;
+}
+
+.biography a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.biography a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.about-me{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+.skill-container {
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #494848;*/
+    width: 1000px;
+    height: 200px;
+}
+
+.skill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 950px;
+}
+
+.skill a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.skill a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.Skills{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.math {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    transform: translateY(-50%);
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+.math-style{
+    position: absolute;
+    top: 150px;
+    left: 255px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.front{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9%;
+    height: auto;
+    cursor: pointer;
+}
+
+.front-style{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.ai{
+    position: absolute;
+    top: 50%;
+    right: 250px;
+    transform: translateY(-50%);
+    width: 9%;
+    height: auto;
+    cursor: pointer;
+}
+
+.ai-style{
+    position: absolute;
+    top: 150px;
+    right: 286px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
