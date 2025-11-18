@@ -20,6 +20,7 @@ function App() {
                 <img src={azamatzakirovch} alt="The Owner" className="owner-the-photo"/>
             </div>
 
+
             <div className="owner-name-container">
                 <div className="owner-name-style">
                     Azamat E. Zakirovich
