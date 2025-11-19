@@ -130,7 +130,7 @@ body {
     top: 78px;
     left: 50px;
     transform: translate(-50%, -50%);
-    color: #494848;
+    color: #ffffff;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -194,7 +194,7 @@ body {
     top: 240px;
     left: 50px;
     transform: translate(-50%, -50%);
-    color: #494848;
+    color: #ffffff;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -287,7 +287,7 @@ body {
     top: 950px;
     left: 50%;
     transform: translateX(-50%);
-    /*border: 1px solid #494848;*/
+    /*border: 1px solid #ba1717;*/
     width: 1000px;
     height: 200px;
 }
@@ -384,4 +384,207 @@ body {
     text-align: justify;
     font-family: Arial, sans-serif;
     font-size: 15px;
+}
+
+.projects-container {
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #ba1717;*/
+    width: 1000px;
+    height: 300px;
+}
+
+.hogwarts-project-container {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    /*border: 1px solid #ba1717;*/
+    height: 210px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hogwarts-project-container:hover {
+    transform: translateY(-5px);
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);*/
+}
+
+
+.hogwarts-link-container {
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #ba1717;*/
+    height: 30px;
+    width: 200px;
+}
+
+.hogwarts-project-photo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.hogwarts-project-src-code{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.hogwarts-project-src-code a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.hogwarts-project-src-code a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.hogwarts-project-streamlit{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    /*color: #ff0000;*/
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.hogwarts-project-streamlit a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.hogwarts-project-streamlit a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+
+.resit-project-container {
+    position: absolute;
+    top: 70px;
+    right: 330px;
+    /*border: 1px solid #ba1717;*/
+    height: 210px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resit-project-container:hover {
+    transform: translateY(-5px);
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);*/
+}
+
+
+.resit-link-container {
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #ba1717;*/
+    height: 30px;
+    width: 200px;
+}
+
+.resit-project-photo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.resit-project-src-code{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.resit-project-src-code a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.resit-project-src-code a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.resit-project-streamlit{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    /*color: #ff0000;*/
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.resit-project-streamlit a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.resit-project-streamlit a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+.leetcode-project-container {
+    position: absolute;
+    top: 55px;
+    right: 30px;
+    /*border: 1px solid #ba1717;*/
+    height: 210px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.leetcode-link-container {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*border: 1px solid #ba1717;*/
+    height: 30px;
+    width: 200px;
+}
+
+.leetcode-project-src-code{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    font-weight: bold;
 }

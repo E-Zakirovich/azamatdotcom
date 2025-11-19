@@ -10,9 +10,35 @@ import ai from "./../public/ai.png"
 import math from "./../public/math.png"
 import frontend from "./../public/code.png"
 
+import hogwarts from "./../public/hogwarts.png"
+import resit from "./../public/resit.png"
+
+
+import {
+    PieChart,
+    Pie,
+    // Cell,
+    Tooltip,
+    Legend,
+    ResponsiveContainer,
+} from "recharts";
+
+type DonutDataItem = {
+    name: string;
+    value: number;
+};
+
+const data: DonutDataItem[] = [
+    { name: "Easy", value: 33 },
+    { name: "Middle", value: 37 },
+    { name: "Difficult", value: 2 },
+];
+
 function App() {
 
-  return (
+    // const colors = ["#2d7816", "#afac2a", "#7c0606"];
+
+    return (
     <>
         <div className="owner-container">
 
@@ -167,13 +193,105 @@ function App() {
 
         </div>
 
-        {/*<div className="projects-container">*/}
+        <div className="projects-container">
+            <div className="about-me">Projects Hub</div>
 
-        {/*    <div className="Projects">Projects That I have Worked</div>*/}
+            <div className="hogwarts-project-container">
 
-        {/*    <div className="projects-explanation">Coming Soon</div>*/}
+                <img className="hogwarts-project-photo" src={hogwarts} alt={hogwarts}/>
 
-        {/*</div>*/}
+                <div className="hogwarts-link-container">
+                    <div className="hogwarts-project-src-code">
+                        <a
+                            href="https://github.com/E-Zakirovich/hogwarts"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            src code
+                        </a>
+                    </div>
+
+
+                    <div className="hogwarts-project-streamlit">
+                        <a
+                            href="https://hogwarts.streamlit.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            streamlit.io
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className="resit-project-container">
+
+                <img className="resit-project-photo" src={resit} alt={resit}/>
+
+                <div className="resit-link-container">
+                    <div className="resit-project-src-code">
+                        <a
+                            href="https://github.com/E-Zakirovich/resit_exam_data_visualization"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            src code
+                        </a>
+                    </div>
+
+
+                    <div className="resit-project-streamlit">
+                        <a
+                            href="https://newuu-resit-exam-data-visualisation.streamlit.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            streamlit.io
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className="leetcode-project-container">
+                <ResponsiveContainer>
+                    <PieChart>
+                        <Pie
+                            data={data}
+                            dataKey="value"
+                            nameKey="name"
+                            cx="50%"
+                            cy="50%"
+                            innerRadius={50}   // inner radius -> donut instead of full pie
+                            outerRadius={65}
+                            paddingAngle={3}
+                        >
+                            {/*{data.map((entry, index) => (*/}
+                            {/*    <Cell*/}
+                            {/*        key={index}*/}
+                            {/*        fill={colors[index % colors.length]}*/}
+                            {/*    />*/}
+                            {/*))}*/}
+                        </Pie>
+                        <Tooltip />
+                        <Legend />
+                    </PieChart>
+                </ResponsiveContainer>
+
+                <div className="leetcode-link-container">
+                    <div className="leetcode-project-src-code">Leetcode.com</div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
 
     </>
   )
