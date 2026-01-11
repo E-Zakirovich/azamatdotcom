@@ -10,6 +10,8 @@ import ai from "./../public/ai.png"
 import math from "./../public/math.png"
 import frontend from "./../public/code.png"
 
+import dataanalytics from "./../public/analysis.png"
+
 // import hogwarts from "./../public/hogwarts.png"
 // import resit from "./../public/resit.png"
 //
@@ -221,10 +223,13 @@ function App() {
 
         <div className="skill-container">
 
-            {/*<div className="Skills">My Skills</div>*/}
+            <div className="skills">Skills</div>
 
             <img src={math} className="math" alt={math}/>
             <div className="math-style">Mathematics</div>
+
+            <img src={dataanalytics} className="data-analysis" alt={dataanalytics}/>
+            <div className="data-analysis-style">Data Analytics</div>
 
             <img src={frontend} className="front" alt={frontend}/>
             <div className="front-style">Front End</div>

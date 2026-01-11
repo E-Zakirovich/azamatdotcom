@@ -288,7 +288,7 @@ body {
     top: 1250px;
     left: 50%;
     transform: translateX(-50%);
-    /*border: 1px solid #ba1717;*/
+    border: 1px solid #ba1717;
     width: 1000px;
     height: 200px;
 }
@@ -315,10 +315,10 @@ body {
     text-decoration: underline;
 }
 
-.Skills{
+.skills{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 25px;
     color: white;
     text-align: justify;
     font-family: Arial, sans-serif;
@@ -329,7 +329,7 @@ body {
 .math {
     position: absolute;
     top: 50%;
-    left: 250px;
+    left: 100px;
     transform: translateY(-50%);
     width: 10%;
     height: auto;
@@ -339,7 +339,28 @@ body {
 .math-style{
     position: absolute;
     top: 150px;
-    left: 255px;
+    left: 107px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.data-analysis {
+    position: absolute;
+    top: 50%;
+    left: 330px;
+    transform: translateY(-50%);
+    width: 8%;
+    height: auto;
+    cursor: pointer;
+}
+
+.data-analysis-style{
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    transform: translateX(-50%);
     color: white;
     text-align: justify;
     font-family: Arial, sans-serif;
@@ -349,8 +370,8 @@ body {
 .front{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 350px;
+    transform: translateY(-50%);
     width: 9%;
     height: auto;
     cursor: pointer;
@@ -359,7 +380,7 @@ body {
 .front-style{
     position: absolute;
     top: 150px;
-    left: 50%;
+    right: 330px;
     transform: translateX(-50%);
     color: white;
     text-align: justify;
@@ -370,7 +391,7 @@ body {
 .ai{
     position: absolute;
     top: 50%;
-    right: 250px;
+    right: 100px;
     transform: translateY(-50%);
     width: 9%;
     height: auto;
@@ -380,7 +401,7 @@ body {
 .ai-style{
     position: absolute;
     top: 150px;
-    right: 286px;
+    right: 135px;
     color: white;
     text-align: justify;
     font-family: Arial, sans-serif;
