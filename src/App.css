@@ -288,7 +288,7 @@ body {
     top: 1250px;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid #ba1717;
+    /*border: 1px solid #ba1717;*/
     width: 1000px;
     height: 200px;
 }
