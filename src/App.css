@@ -559,8 +559,8 @@ body {
     position: absolute;
     top: 55px;
     right: 30px;
-    /*border: 1px solid #ba1717;*/
-    height: 210px;
+    border: 1px solid #ba1717;
+    /*height: 210px;*/
     width: 300px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
