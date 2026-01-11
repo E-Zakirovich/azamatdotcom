@@ -164,9 +164,9 @@ function App() {
 
             <div className="biography">
                 <p>
-                    Hi, it is Azamat E. Zakirovich who interested in build AI models with pure math and coding. Currently I am learning Dr Andrej Karpathys "Zero to Hero" Neural Networks course. For additional
+                    Hi, it is Azamat E. Zakirovich who interested in building AI models with pure math and coding. Currently I am learning Dr Andrej Karpathys "Zero to Hero" Neural Networks course. For additional
                     materials Michael Neilson's "Neural Networks and Deep Learning" free online book. To be honest it is a bit difficult to learn AI field without knowing Calculus, Probability ad Statistics, Linear Algebra
-                    , Python with OOP. My honest recommendation is please cover fundamental knowledge in order to learn AI
+                    , Python with OOP. My honest recommendation is please cover fundamental knowledge in order to learn AI.
                 </p>
 
                 <p>
@@ -186,7 +186,7 @@ function App() {
                 <p>
                     In order to improve my brain, my mind is working some philosophical question. Some brainstorm questions that made by ancient philosopher like Socrates. Also I am reading
                     books related to politics. Currently I am reading "Great Game". Great Game is going to represent history of war between Russian Empire with Great Britain, also they more focus on my homeland
-                    Central Asia. When I was learning AI, I understand one thing. The thing is that, if you want to improve the accuracy of your neural net, you neet to improve your neurons and increase the number of improved
+                    Central Asia. When I was learning AI, I understand one thing. The thing is that, if you want to improve the accuracy of your neural net, you need to improve your neurons and increase the number of improved
                     neurons. If you apply this to your brain, you need to read a lot of book in order to increase the number of valuable neurons. Read Book.
                 </p>
 
