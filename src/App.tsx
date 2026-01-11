@@ -161,18 +161,60 @@ function App() {
             <div className="about-me">About Me</div>
 
             <div className="biography">
-                Hello everyone, it is Azamat E. Zakirovich from Uzbekistan.
-                I am interested in AI and I love big data and how to build AI
-                modules. My favourite activity is jogging. You can follow my{" "}
-                <a
-                    href="https://www.strava.com/athletes/189509308"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    strava
-                </a>
-                {" "}
-                account. I always live a quote. The quote is this: - "If I had six hours to cut down a big tree, I would spend five and a half hours sharpening the axe". You can find me with telegram or linkedin, because I am active the social medias as I mentioned above.
+                <p>
+                    Hi, it is Azamat E. Zakirovich who interested in build AI models with pure math and coding. Currently I am learning Dr Andrej Karpathys "Zero to Hero" Neural Networks course. For additional
+                    materials Michael Neilson's "Neural Networks and Deep Learning" free online book. To be honest it is a bit difficult to learn AI field without knowing Calculus, Probability ad Statistics, Linear Algebra
+                    , Python with OOP. My honest recommendation is please cover fundamental knowledge in order to learn AI
+                </p>
+
+                <p>
+                    I am good at running. I run 8 km 4 times a week. I also recommend to you that train with sport activities. It will help to your learnings and will give you inner peace. For more updates
+                    about my running activity follow my {" "}
+                    <a
+                        href="https://www.strava.com/athletes/189509308"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        strava
+                    </a>
+                    {" "}
+                    account.
+                </p>
+
+                <p>
+                    In order to improve my brain, my mind is working some philosophical question. Some brainstorm questions that made by ancient philosopher like Socrates. Also I am reading
+                    books related to politics. Currently I am reading "Great Game". Great Game is going to represent history of war between Russian Empire with Great Britain, also they more focus on my homeland
+                    Central Asia. When I was learning AI, I understand one thing. The thing is that, if you want to improve the accuracy of your neural net, you neet to improve your neurons and increase the number of improved
+                    neurons. If you apply this to your brain, you need to read a lot of book in order to increase the number of valuable neurons. Read Book.
+                </p>
+
+                <p>
+                    I really love Billie Eilish, Tame Impala, sometimes The Weeknd, sometimes some russian singers like Miyagi, Endishpil. These days I decreased listening hours of listening music in order to improve my mind.
+                </p>
+
+                <p>
+                    I always happy to share my knowledge, if you have any questions related to AI feel free to ask. Write your messages to this
+                    {" "}
+                    <a
+                        href="https://t.me/azamatzakirovch"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        telegram
+                    </a>
+                    {" "}
+                    account. And also
+                    {" "}
+                    <a
+                        href="https://t.me/azamatdotcom"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        follow my telegram channel
+                    </a>
+                    {" "}
+                    . Never stop learning, Good Luck.
+                </p>
             </div>
 
         </div>

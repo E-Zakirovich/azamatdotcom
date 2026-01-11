@@ -247,14 +247,14 @@ body {
     transform: translateX(-50%);
     /*border: 1px solid #494848;*/
     width: 1000px;
-    height: 200px;
+    height: 400px;
 }
 
 .biography{
     position: absolute;
-    top: 50%;
+    top: 50px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     color: white;
     text-align: justify;
     font-family: Arial, sans-serif;
@@ -274,8 +274,9 @@ body {
 
 .about-me{
     position: absolute;
+    /*border: 1px solid red;*/
     top: 10px;
-    left: 10px;
+    left: 25px;
     color: white;
     text-align: justify;
     font-family: Arial, sans-serif;
@@ -284,7 +285,7 @@ body {
 
 .skill-container {
     position: absolute;
-    top: 950px;
+    top: 1250px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #ba1717;*/
