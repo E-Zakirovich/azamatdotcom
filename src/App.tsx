@@ -14,6 +14,7 @@ import dataanalytics from "./../public/analysis.png"
 
 import hogwarts from "./../public/hogwarts.png"
 import resit from "./../public/resit.png"
+import micrograd from "./../public/micrograd.png"
 //
 //
 // import {
@@ -305,6 +306,52 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <div className="micrograd-project-container">
+
+                <img className="micrograd-project-photo" src={micrograd} alt={micrograd}/>
+
+                <div className="micrograd-project-description-container">
+                    <div className="micrograd-project-description">
+                        <strong> Zero to Hero</strong>.
+                        <br/>
+
+
+                        {" "}
+                        <a
+                            href="https://github.com/karpathy/micrograd"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Micrograd
+                        </a>
+                        {" "}
+                        library is made by {" "}
+                        <a
+                            href="https://karpathy.ai"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Dr Andrej Karpathy
+                        </a>
+                        {" "} for learning purposes. I watched first lecture of "Zero to Hero" course. Then I made this project form scratch in order to understand what
+                        I did and what I can do. 
+
+
+                        <br />
+                        <a
+                            href="https://github.com/E-Zakirovich/Micrograd"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
 
         </div>
 
