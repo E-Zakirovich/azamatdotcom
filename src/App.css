@@ -334,7 +334,14 @@ body {
     width: 10%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+.math:hover {
+    transform: translateY(-50%) scale(1.1);
+    opacity: 0.8;
+}
+
 
 .math-style{
     position: absolute;
@@ -354,6 +361,12 @@ body {
     width: 8%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.data-analysis:hover {
+    transform: translateY(-50%) scale(1.1);
+    opacity: 0.8;
 }
 
 .data-analysis-style{
@@ -375,6 +388,12 @@ body {
     width: 9%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.front:hover {
+    transform: translateY(-50%) scale(1.1);
+    opacity: 0.8;
 }
 
 .front-style{
@@ -396,6 +415,12 @@ body {
     width: 9%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.ai:hover {
+    transform: translateY(-50%) scale(1.1);
+    opacity: 0.8;
 }
 
 .ai-style{

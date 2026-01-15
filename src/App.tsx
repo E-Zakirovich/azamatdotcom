@@ -12,8 +12,8 @@ import frontend from "./../public/code.png"
 
 import dataanalytics from "./../public/analysis.png"
 
-import hogwarts from "./../public/hogwarts.png"
-import resit from "./../public/resit.png"
+// import hogwarts from "./../public/hogwarts.png"
+// import resit from "./../public/resit.png"
 //
 //
 // import {
