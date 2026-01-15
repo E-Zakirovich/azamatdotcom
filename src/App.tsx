@@ -160,7 +160,7 @@ function App() {
 
         <div className="biography-container">
 
-            <div className="about-me">About Me</div>
+            <div className="about-me">bio</div>
 
             <div className="biography">
                 <p>
@@ -223,7 +223,7 @@ function App() {
 
         <div className="skill-container">
 
-            <div className="skills">Skills</div>
+            <div className="skills">skills</div>
 
             <img src={math} className="math" alt={math}/>
             <div className="math-style">Mathematics</div>
