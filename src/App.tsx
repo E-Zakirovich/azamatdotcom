@@ -12,8 +12,8 @@ import frontend from "./../public/code.png"
 
 import dataanalytics from "./../public/analysis.png"
 
-// import hogwarts from "./../public/hogwarts.png"
-// import resit from "./../public/resit.png"
+import hogwarts from "./../public/hogwarts.png"
+import resit from "./../public/resit.png"
 //
 //
 // import {
@@ -239,82 +239,74 @@ function App() {
 
         </div>
 
-        {/*<div className="projects-container">*/}
-        {/*    <div className="about-me">Projects</div>*/}
+        <div className="projects-container">
+            <div className="about-me">projects - hub</div>
 
-        {/*    <div className="hogwarts-project-container">*/}
+            <div className="hogwarts-project-container">
 
-        {/*        <img className="hogwarts-project-photo" src={hogwarts} alt={hogwarts}/>*/}
+                <img className="hogwarts-project-photo" src={hogwarts} alt={hogwarts}/>
 
-        {/*        <div className="hogwarts-project-description-container">*/}
-        {/*            <div className="hogwarts-project-description">*/}
-        {/*                I participated in a project called the<strong> Hogwarts Research Summer School</strong>, where I worked as a data analytics intern.*/}
-        {/*                My task was to design an interactive dashboard that represents data from the last four*/}
-        {/*                sessions of the research school.*/}
-        {/*                /!*<br /><br />*!/*/}
-        {/*                While working on the project, I faced several challenges. Most of users entered wrong inputs for columns.*/}
-        {/*                Each session had its own separate database with different column names, which made it difficult*/}
-        {/*                to merge them into a single unified dataset. As a result, instead of creating one combined*/}
-        {/*                dashboard, I developed four separate dashboards—one for each session. With this project I gained a lot of new knowledge and experience.*/}
-        {/*                <br />*/}
-        {/*                <a*/}
-        {/*                    href="https://hogwarts.streamlit.app"*/}
-        {/*                    target="_blank"*/}
-        {/*                    rel="noreferrer"*/}
-        {/*                >*/}
-        {/*                    Project*/}
-        {/*                </a>*/}
-        {/*                {" "}|{" "}*/}
-        {/*                <a*/}
-        {/*                    href="https://github.com/E-Zakirovich/hogwarts"*/}
-        {/*                    target="_blank"*/}
-        {/*                    rel="noreferrer"*/}
-        {/*                >*/}
-        {/*                    Source Code*/}
-        {/*                </a>*/}
-        {/*            </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
+                <div className="hogwarts-project-description-container">
+                    <div className="hogwarts-project-description">
+                        <strong> Hogwarts Research Summer School</strong>.
+                        <br/>
+                        In this project I worked as a data analytics intern.
+                        My task was to design an interactive dashboard that represents data from the last four sessions of the research school.
+                        <br/>
+                        <a
+                            href="https://hogwarts.streamlit.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Project
+                        </a>
+                        {" and "}
+                        <a
+                            href="https://github.com/E-Zakirovich/hogwarts"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        {/*    <div className="resit-project-container">*/}
+            <div className="resit-project-container">
 
-        {/*        <img className="resit-project-photo" src={resit} alt={hogwarts}/>*/}
+                <img className="resit-project-photo" src={resit} alt={hogwarts}/>
 
-        {/*        <div className="resit-project-description-container">*/}
-        {/*            <div className="resit-project-description">*/}
-        {/*                When I was a sophomore at New Uzbekistan, I failed seven subjects*/}
-        {/*                with an F grade. It was a difficult time, and I wanted to find an*/}
-        {/*                argument regarding the exam structure of my university. Interestingly,*/}
-        {/*                I accidentally obtained the entire database of failed students, including*/}
-        {/*                their names, majors, emails, failed subjects, and exam rooms. This became*/}
-        {/*                my second project connected to a real-world application. The interesting*/}
-        {/*                part is that I combined two tables into one. It was challenging; I used a 4D matrix to represent*/}
-        {/*                exam rooms, exam subjects, and exam times. Even though I could not find any counterarguments, I*/}
-        {/*                gained valuable experience. Interestingly, I passed five out of seven resit exams and was accepted*/}
-        {/*                into the junior year.*/}
+                <div className="resit-project-description-container">
+                    <div className="resit-project-description">
+                        <strong> New Uzbekistan University</strong>.
+                        <br/>
+
+                        I accidentally obtained the entire database of failed students, including
+                        their names, majors, emails, failed subjects, and exam rooms. This became
+                        my second project connected to a real-world application.
 
 
-        {/*                <br />*/}
-        {/*                <a*/}
-        {/*                    href="https://newuu-resit-exam-data-visualisation.streamlit.app"*/}
-        {/*                    target="_blank"*/}
-        {/*                    rel="noreferrer"*/}
-        {/*                >*/}
-        {/*                    Project*/}
-        {/*                </a>*/}
-        {/*                {" "}| {" "}*/}
-        {/*                <a*/}
-        {/*                    href="https://github.com/E-Zakirovich/resit_exam_data_visualization"*/}
-        {/*                    target="_blank"*/}
-        {/*                    rel="noreferrer"*/}
-        {/*                >*/}
-        {/*                    Source Code*/}
-        {/*                </a>*/}
-        {/*            </div>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
+                        <br />
+                        <a
+                            href="https://newuu-resit-exam-data-visualisation.streamlit.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Project
+                        </a>
+                        {" "}| {" "}
+                        <a
+                            href="https://github.com/E-Zakirovich/resit_exam_data_visualization"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        {/*</div>*/}
+        </div>
 
     </>
   )

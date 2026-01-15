@@ -447,7 +447,7 @@ body {
     position: absolute;
     top: 50px;
     /*border: 1px solid #ba1717;*/
-    height: 250px;
+    height: 100px;
     width: 950px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -457,19 +457,16 @@ body {
     position: absolute;
     top: 10px;
     left: 0;
-    /*transform: translateY(-50%);*/
-    height: 150px;
-    width: 310px;
+    height: 70px;
 }
 
 .hogwarts-project-description-container {
     position: absolute;
-    top: 50%;
-    left: 340px;
-    transform: translateY(-50%);
+    top: 8px;
+    left: 140px;
     /*border: 1px solid #ba1717;*/
-    height: 240px;
-    width: 610px;
+    height: 80px;
+    width: 810px;
 }
 
 .hogwarts-project-description {
@@ -480,7 +477,7 @@ body {
     text-align: justify;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    width: 600px;
+    width: 810px;
 }
 
 .hogwarts-project-description a {
@@ -491,9 +488,9 @@ body {
 
 .resit-project-container {
     position: absolute;
-    top: 250px;
+    top: 150px;
     /*border: 1px solid #ba1717;*/
-    height: 250px;
+    height: 100px;
     width: 950px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -502,20 +499,17 @@ body {
 .resit-project-photo{
     position: absolute;
     top: 10px;
-    right: 0;
-    /*transform: translateY(-50%);*/
-    height: 150px;
-    width: 320px;
+    left: 0;
+    height: 70px;
 }
 
 .resit-project-description-container {
     position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+    top: 8px;
+    left: 140px;
     /*border: 1px solid #ba1717;*/
-    height: 240px;
-    width: 610px;
+    height: 80px;
+    width: 810px;
 }
 
 .resit-project-description {
@@ -526,7 +520,7 @@ body {
     text-align: justify;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    width: 600px;
+    width: 810px;
 }
 
 .resit-project-description a {
