@@ -568,3 +568,45 @@ body {
     color: #58a6ff;
     text-decoration: none;
 }
+
+.web-project-container {
+    position: absolute;
+    top: 350px;
+    /*border: 1px solid #ba1717;*/
+    height: 100px;
+    width: 950px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.web-project-photo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 70px;
+}
+
+.web-project-description-container {
+    position: absolute;
+    top: 8px;
+    left: 140px;
+    /*border: 1px solid #ba1717;*/
+    height: 80px;
+    width: 810px;
+}
+
+.web-project-description {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 810px;
+}
+
+.web-project-description a {
+    color: #58a6ff;
+    text-decoration: none;
+}

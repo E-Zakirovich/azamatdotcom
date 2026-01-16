@@ -15,27 +15,7 @@ import dataanalytics from "./../public/analysis.png"
 import hogwarts from "./../public/hogwarts.png"
 import resit from "./../public/resit.png"
 import micrograd from "./../public/micrograd.png"
-//
-//
-// import {
-//     PieChart,
-//     Pie,
-//     // Cell,
-//     Tooltip,
-//     Legend,
-//     ResponsiveContainer,
-// } from "recharts";
-//
-// type DonutDataItem = {
-//     name: string;
-//     value: number;
-// };
-//
-// const data: DonutDataItem[] = [
-//     { name: "Easy", value: 33 },
-//     { name: "Middle", value: 37 },
-//     { name: "Difficult", value: 2 },
-// ];
+import website from "./../public/azamatdotcom.png"
 
 function App() {
 
@@ -341,6 +321,36 @@ function App() {
                         <br />
                         <a
                             href="https://github.com/E-Zakirovich/Micrograd"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="web-project-container">
+
+                <img className="web-project-photo" src={website} alt={website}/>
+
+                <div className="web-project-description-container">
+                    <div className="web-project-description">
+                        <strong> My Own Portfolio Website</strong>.
+                        <br/>
+                        This is my first global website made by me. With this project, you can get all information me and my projects.
+                        Also you can get all possible contacts(linkedin, email, telegram, phone contact)
+                        <br />
+                        <a
+                            href="https://azamat-kappa.vercel.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Project
+                        </a>
+                        {" "} | {" "}
+                        <a
+                            href="https://github.com/E-Zakirovich/azamatdotcom"
                             target="_blank"
                             rel="noreferrer"
                         >
