@@ -241,7 +241,7 @@ function App() {
                         >
                             Project
                         </a>
-                        {" and "}
+                        {" "}|{" "}
                         <a
                             href="https://github.com/E-Zakirovich/hogwarts"
                             target="_blank"
