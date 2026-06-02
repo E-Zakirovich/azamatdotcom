@@ -31,7 +31,7 @@ function App() {
 
             <div className="owner-name-container">
                 <div className="owner-name-style">
-                    Azamat E. Zakirovich
+                    Azamat(Marshall) E. Zakirovich
                 </div>
             </div>
 
@@ -145,59 +145,146 @@ function App() {
 
             <div className="biography">
                 <p>
-                    Hi, it is Azamat E. Zakirovich who interested in building AI models with pure math and coding. Currently I am learning Dr Andrej Karpathys "Zero to Hero" Neural Networks course. For additional
-                    materials Michael Neilson's "Neural Networks and Deep Learning" free online book. To be honest it is a bit difficult to learn AI field without knowing Calculus, Probability ad Statistics, Linear Algebra
-                    , Python with OOP. My honest recommendation is please cover fundamental knowledge in order to learn AI.
+                    Hi. It is Azamat, and also you can call me Marshall. I like to train my natural intellect with scientific knowledge.
+                    My job is - help people to accelerate their tasks with my special AI models. I would prefer understanding the
+                    philosophy behind, rather than remembering random collection of words, and it helps me to think dynamically.
                 </p>
 
                 <p>
-                    I am good at running. I run 8 km 4 times a week. I also recommend to you that train with sport activities. It will help to your learnings and will give you inner peace. For more updates
-                    about my running activity follow my {" "}
+                    These days, I am trying to understand the philosophy behind of AI. That's why, I am following {" "}
                     <a
-                        href="https://www.strava.com/athletes/189509308"
+                        href="http://neuralnetworksanddeeplearning.com"
                         target="_blank"
                         rel="noreferrer"
+                    >
+                        Neural Networks & Deep Learning
+                    </a>
+                    {" "}
+                    by {" "}
+                    <a
+                        href="https://michaelnielsen.org"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Michael Nielsen
+                    </a>,
+
+                    {" "}
+                    <a
+                        href="https://www.bishopbook.com"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Deep Learning - Foundation and Concepts
+                    </a> by {" "}
+                    <a
+                        href="https://en.wikipedia.org/wiki/Chris_Bishop"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Chris Bishop
+                    </a> and {" "}
+                    <a
+                        href="https://www.linkedin.com/in/hugh-bishop-119075154/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Hugh Bishop
+                    </a>. To understand the books above, I am also covering
+                    {" "}
+                    <a
+                        href="https://www.udemy.com/course/calculus1/?couponCode=PMNVD2525"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Calculus 1
+                    </a>,
+                    {" "}
+                    <a
+                        href="https://www.udemy.com/course/calculus-2/?couponCode=PMNVD2525"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Calculus 2
+                    </a>,
+                    {" "}
+                    <a
+                        href="https://www.udemy.com/course/linear_algebra/?couponCode=PMNVD2525"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Linear Algebra
+                    </a>,
+                    {" "} and {" "}
+                    <a
+                        href="https://www.udemy.com/course/statistics-probability/?couponCode=PMNVD2525"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Probability
+                    </a>{" "}.
+                    Yea, it is difficult but worth to sacrifice my life.
+                </p>
+
+                <p>
+                    I have a hobby, I like to solve coding problems related to Design and Analysis of Algorithms. If you interested
+                    {" "}
+                    <a
+                        href="https://leetcode.com/u/azamatzakirovch/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        press it
+                    </a>{" "} to see my leetcode.
+                </p>
+
+                <p>
+                    Honestly, only mental health is not enough to be perfect guy. Physical strength must be considered.
+                    That's why I like to run about 10km in a row. Running helps me to focus my thoughts into one strength. Run with me on{" "}
+                    <a
+                    href="https://www.strava.com/athletes/189509308"
+                    target="_blank"
+                    rel="noreferrer"
                     >
                         strava
-                    </a>
-                    {" "}
-                    account.
+                    </a>.
                 </p>
 
-                <p>
-                    In order to improve my brain, my mind is working some philosophical question. Some brainstorm questions that made by ancient philosopher like Socrates. Also I am reading
-                    books related to politics. Currently I am reading "Great Game". Great Game is going to represent history of war between Russian Empire with Great Britain, also they more focus on my homeland
-                    Central Asia. When I was learning AI, I understand one thing. The thing is that, if you want to improve the accuracy of your neural net, you need to improve your neurons and increase the number of improved
-                    neurons. If you apply this to your brain, you need to read a lot of book in order to increase the number of valuable neurons. Read Book.
-                </p>
+                I am active on
+                {" "}
+                <a
+                    href="https://x.com/azamatzakirovch"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    X
+                </a>,
+                {" "}
+                <a
+                    href="https://www.linkedin.com/in/azamatzakirovch/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    LinkedIn
+                </a>{" "} and
+                {" "}
+                <a
+                    href="https://medium.com/@azamatzakirovch"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Medium
+                </a>. I will write my thought about AI, and my learning paths and about my latest projects that I am
+                working on. Also, if you want to see my works, go to pet projects part of my website or go to my
+                {" "}
+                <a
+                    href="https://github.com/E-Zakirovich"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    GitHub
+                </a>.
 
-                <p>
-                    I really love Billie Eilish, Tame Impala, sometimes The Weeknd, sometimes some russian singers like Miyagi, Endishpil. These days I decreased listening hours of listening music in order to improve my mind.
-                </p>
-
-                <p>
-                    I always happy to share my knowledge, if you have any questions related to AI feel free to ask. Write your messages to this
-                    {" "}
-                    <a
-                        href="https://t.me/azamatzakirovch"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        telegram
-                    </a>
-                    {" "}
-                    account. And also
-                    {" "}
-                    <a
-                        href="https://t.me/azamatdotcom"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        follow my telegram channel
-                    </a>
-                    {" "}
-                    . Never stop learning, Good Luck.
-                </p>
             </div>
 
         </div>
@@ -221,7 +308,7 @@ function App() {
         </div>
 
         <div className="projects-container">
-            <div className="about-me">projects - hub</div>
+            <div className="about-me">pet projects</div>
 
             <div className="hogwarts-project-container">
 

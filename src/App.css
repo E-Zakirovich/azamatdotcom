@@ -247,7 +247,7 @@ body {
     transform: translateX(-50%);
     /*border: 1px solid #494848;*/
     width: 950px;
-    height: 400px;
+    height: 320px;
 }
 
 .biography{
@@ -285,7 +285,7 @@ body {
 
 .skill-container {
     position: absolute;
-    top: 1250px;
+    top: 1150px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #ba1717;*/
@@ -435,7 +435,7 @@ body {
 
 .projects-container {
     position: absolute;
-    top: 1450px;
+    top: 1350px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #ba1717;*/
