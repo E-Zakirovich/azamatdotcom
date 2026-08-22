@@ -91,13 +91,144 @@ body {
     left: 140px;
     cursor: pointer;
 }
+/*------------------------------------*/
+.agrobank-dot{
+    position: absolute;
+    top: 105px;
+    left: 93px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #494848;
+    border: 1px solid #494848;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.agrobank-year{
+    position: absolute;
+    top: 113px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.agrobank-university{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.agrobank-explanation-container{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 700px;
+    height: 100px;
+    /*border: 1px solid #494848;*/
+}
+
+.agrobank-explanation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 680px;
+}
+
+.agrobank-explanation a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.agrobank-explanation a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+/*------------------------------------*/
+.dot-tmk{
+    position: absolute;
+    top: 247px;
+    left: 93px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #494848;
+    border: 1px solid #494848;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.year-tmk{
+    position: absolute;
+    top: 257px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.tmk{
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    width: 12%;
+    cursor: pointer;
+
+}
+
+.tmk-explanation-container{
+    position: absolute;
+    top: 210px;
+    right: 30px;
+    width: 700px;
+    height: 100px;
+    /*border: 1px solid #494848;*/
+}
+
+.tmk-explanation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 680px;
+}
+
+.tmk-explanation a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.tmk-explanation a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+/*---------------------*/
 
 .timeline-container {
     position: absolute;
     top: 400px;
     left: 50%;
     transform: translateX(-50%);
-    height: 400px;
+    height: 620px;
     width: 1000px;
     /*border: 2px solid white;*/
 }
@@ -107,14 +238,14 @@ body {
     top: 40px;
     left: 100px;
     width: 1px;
-    height: 300px;
+    height: 570px;
     background: #494848;
     border: 1px solid #494848;
 }
 
 .dot{
     position: absolute;
-    top: 70px;
+    top: 380px;
     left: 93px;
     width: 15px;
     height: 15px;
@@ -127,7 +258,7 @@ body {
 
 .year{
     position: absolute;
-    top: 78px;
+    top: 390px;
     left: 50px;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -139,7 +270,7 @@ body {
 
 .university{
     position: absolute;
-    top: 60px;
+    top: 330px;
     left: 130px;
     width: 12%;
     cursor: pointer;
@@ -147,7 +278,7 @@ body {
 
 .university-explanation-container{
     position: absolute;
-    top: 70px;
+    top: 340px;
     right: 30px;
     width: 700px;
     height: 100px;
@@ -175,10 +306,10 @@ body {
     color: #79c0ff;
     text-decoration: underline;
 }
-
+/*------------------------------------*/
 .dot-najottalim{
     position: absolute;
-    top: 230px;
+    top: 515px;
     left: 93px;
     width: 15px;
     height: 15px;
@@ -191,7 +322,7 @@ body {
 
 .year-najottalim{
     position: absolute;
-    top: 240px;
+    top: 525px;
     left: 50px;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -203,7 +334,7 @@ body {
 
 .najottalim{
     position: absolute;
-    top: 200px;
+    top: 470px;
     left: 130px;
     width: 12%;
     cursor: pointer;
@@ -211,7 +342,7 @@ body {
 
 .nt-explanation-container{
     position: absolute;
-    top: 210px;
+    top: 480px;
     right: 30px;
     width: 700px;
     height: 100px;
@@ -242,13 +373,15 @@ body {
 
 .biography-container {
     position: absolute;
-    top: 800px;
+    top: 1100px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #494848;*/
     width: 950px;
     height: 320px;
 }
+
+/*------------------------------------*/
 
 .biography{
     position: absolute;
@@ -285,7 +418,7 @@ body {
 
 .skill-container {
     position: absolute;
-    top: 1150px;
+    top: 1470px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #ba1717;*/
@@ -435,12 +568,12 @@ body {
 
 .projects-container {
     position: absolute;
-    top: 1350px;
+    top: 1670px;
     left: 50%;
     transform: translateX(-50%);
     /*border: 1px solid #ba1717;*/
     width: 950px;
-    height: 500px;
+    height: 900px;
 }
 
 .hogwarts-project-container {
@@ -607,6 +740,141 @@ body {
 }
 
 .web-project-description a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+/*--------------------------*/
+
+
+.flower-project-container {
+    position: absolute;
+    top: 450px;
+    /*border: 1px solid #ba1717;*/
+    height: 100px;
+    width: 950px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flower-project-photo{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    height: 70px;
+}
+
+.flower-project-description-container {
+    position: absolute;
+    top: 8px;
+    left: 140px;
+    /*border: 1px solid #ba1717;*/
+    height: 80px;
+    width: 810px;
+}
+
+.flower-project-description {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 810px;
+}
+
+.flower-project-description a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+/*--------------------------*/
+
+
+.animal-project-container {
+    position: absolute;
+    top: 550px;
+    /*border: 1px solid #ba1717;*/
+    height: 100px;
+    width: 950px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.animal-project-photo{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    height: 70px;
+}
+
+.animal-project-description-container {
+    position: absolute;
+    top: 8px;
+    left: 140px;
+    /*border: 1px solid #ba1717;*/
+    height: 80px;
+    width: 810px;
+}
+
+.animal-project-description {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 810px;
+}
+
+.animal-project-description a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+/*--------------------------*/
+
+
+.mask-project-container {
+    position: absolute;
+    top: 650px;
+    /*border: 1px solid #ba1717;*/
+    height: 100px;
+    width: 950px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mask-project-photo{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    height: 70px;
+}
+
+.mask-project-description-container {
+    position: absolute;
+    top: 8px;
+    left: 140px;
+    /*border: 1px solid #ba1717;*/
+    height: 80px;
+    width: 810px;
+}
+
+.mask-project-description {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 810px;
+}
+
+.mask-project-description a {
     color: #58a6ff;
     text-decoration: none;
 }

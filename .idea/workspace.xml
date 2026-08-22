@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0821ac-0304-42b9-aa28-7b3ea5a4e0a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/azamatdotcom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
@@ -40,7 +35,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/macbook/Desktop/azamatdotcom/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/macbook/azamatdotcom/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +55,7 @@
       <updated>1768555342177</updated>
       <workItem from="1768555344473" duration="1601000" />
       <workItem from="1780417034303" duration="6095000" />
+      <workItem from="1787389414496" duration="4300000" />
     </task>
     <servers />
   </component>

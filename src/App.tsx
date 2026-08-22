@@ -17,6 +17,13 @@ import resit from "./../public/resit.png"
 import micrograd from "./../public/micrograd.png"
 import website from "./../public/azamatdotcom.png"
 
+import tmk from "./../public/tmk.png"
+import agrobank from "./../public/agrobank.jpeg"
+
+import mask from "./../public/mask.jpeg"
+import animal from "./../public/animal.jpeg"
+import flower from "./../public/flower.jpeg"
+
 function App() {
 
 
@@ -57,7 +64,82 @@ function App() {
         </div>
 
         <div className="timeline-container">
+
+            <div className="agrobank-dot"></div>
+
+            <div className="agrobank-year">2023 - 2027</div>
+
+            <img src={agrobank} className="agrobank-university" alt="University" />
+
+            <div className="agrobank-explanation-container">
+                <div className="agrobank-explanation">
+                    Computer Vision Engineer intern at{" "}
+                    <a
+                        href="https://agrobank.uz"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Agrobank
+                    </a>
+                    . Here I develop and implement neural network models, including CNNs
+                    and Transformers, for image classification and object detection
+                    tasks. I&apos;ve worked on projects like drone detection, face mask
+                    detection, and animal and medicinal flower classification, managing
+                    the full deep learning pipeline from dataset preparation and
+                    augmentation to GPU-accelerated training and evaluation. I use
+                    PyTorch, Git, and Kaggle to build, document, and share this work. I&apos;m
+                    grateful to my mentor,{" "}
+                    <a
+                        href="https://scholar.google.com/citations?user=Rg9Dte8AAAAJ&hl=en"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Mansurbek Abdullayev
+                    </a>
+                    , for his guidance throughout this internship.
+                </div>
+            </div>
+
             <div className="timeline"></div>
+
+            <div className="dot-tmk"></div>
+
+            <div className="year-tmk">2026 - 2026</div>
+
+            <img src={tmk} className="tmk" alt="University" />
+
+            <div className="tmk-explanation-container">
+                <div className="tmk-explanation">
+                    Internship at{" "}
+                    <a
+                        href="https://uztmk.uz"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        UzTMK
+                    </a>
+                    , working with the HR team on recruitment and digital HR processes. I
+                    supported candidate screening and evaluation, compared resumes
+                    against job requirements, and helped automate recruitment tracking
+                    with Google Sheets and Apps Script. I&apos;m grateful to my mentor,{" "}
+                    <a
+                        href="https://www.linkedin.com/in/otabek-alimov/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Otabek Alimov
+                    </a>
+                    , and the department director,{" "}
+                    <a
+                        href="https://www.linkedin.com/in/utkir-norov-640760227/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Utkir Norov
+                    </a>
+                    , for the opportunity and support during this internship.
+                </div>
+            </div>
 
             <div className="dot"></div>
 
@@ -447,8 +529,78 @@ function App() {
                 </div>
             </div>
 
+            <div className="flower-project-container">
 
+                <img className="flower-project-photo" src={flower} alt={website}/>
 
+                <div className="flower-project-description-container">
+                    <div className="flower-project-description">
+                        <strong> Medical Flower Classification</strong>.
+                        <br/>
+                        This project is part of computer vision and it is related to image classification. It will help you to classify medical flowers from image.
+                        <br />
+
+                        <a
+                            href="https://github.com/E-Zakirovich/medicinal-flower-classification"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="animal-project-container">
+
+                <img className="animal-project-photo" src={animal} alt={website}/>
+
+                <div className="animal-project-description-container">
+                    <div className="animal-project-description">
+                        <strong> Animal classification</strong>.
+                        <br/>
+                        Actually, I found random dataset related computer vision. It will help you to classify animals. Basically this project also related to image classification from computer vision.
+                        <br />
+
+                        <a
+                            href="https://github.com/E-Zakirovich/animal-detection"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="mask-project-container">
+
+                <img className="mask-project-photo" src={mask} alt={website}/>
+
+                <div className="mask-project-description-container">
+                    <div className="mask-project-description">
+                        <strong> Face Mask Detection</strong>.
+                        <br/>
+                        This is my first project related to object detection. It will help you to identify whether mask is wear or not, correct or incorrect. Basically it is my favorite I guess.
+                        <br />
+                        <a
+                            href="https://www.youtube.com/watch?v=SG_sBif6LMs"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Project Result Video
+                        </a>
+                        {" "} | {" "}
+                        <a
+                            href="https://github.com/E-Zakirovich/face-mask-detection"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
